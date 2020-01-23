@@ -1,0 +1,1578 @@
+
+html, body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* --------------------- DEBUT HEADER -------------------------- */
+  
+/* Debut navbar */
+
+.navbar {
+    background: #3c3834;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  
+  }
+
+  .navStyling {
+     background-color: #3c3834 !important;
+  }
+
+  .decalagePhone {
+      margin:auto
+  }
+  
+  .logo {
+    width: 70px;
+  }
+  
+  a {
+    color: #fff;
+    font-size: 1em;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+  
+  }
+  
+  .item {
+  
+    padding: 40px;
+    cursor: pointer;
+  
+  }
+  
+  .item:hover {
+    background-color: rgb(70, 70, 70);
+  
+  }
+  
+  a:hover {
+    color: #dea41e;
+  }
+
+  .hero-maria{
+    height: 30vw;
+    min-height: 200px;
+    width: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/29/13/27/accessory-1869839_960_720.jpg);
+    background-size: cover;
+    background-position-y: center;
+
+  }
+  
+  .hero {
+    height: 30vw;
+    min-height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position-y: center;
+  
+  }
+  
+
+  .teamHero {
+    background-image: url(https://images.unsplash.com/photo-1534947379496-bedc63409670?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80);
+  }
+
+  .mainHero {
+      height: 91.7vh !important;
+      background-image: url(https://images.unsplash.com/photo-1543835383-7eb9f5e0e445?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  }
+
+  .styleJumbo {
+    margin:0 !important;
+    height: 91.7vh !important;
+    background-size: cover;
+    border-radius: 0 !important;
+    background-image: url(https://images.unsplash.com/photo-1543835383-7eb9f5e0e445?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 90px;
+    padding-left: 60px;
+}
+
+
+  .display-4 {
+      font-family: 'Ubuntu';
+      font-weight: 900;
+      color: #DEA41E;
+      font-size: 7vw;
+      text-align: center;
+  }
+
+  .descJumboStyle {
+      font-size: 4.5vw;
+      text-align: center;
+  }
+
+  .aboveBtnDesc {
+    font-size: 3vw;
+    text-align: center;
+  }
+
+  .btnHeroCont {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .btn_hero_style {
+      background-color: #dea41e;
+      border: 1px solid #dea41e;
+      width: 40vw;
+      font-size: 4.5vw;
+      max-width: 240px;
+      color: white;
+  }
+
+  .btn_hero_style:hover {
+    background-color: #8d6915;
+    border: 1px solid #8d6915;
+    color: white;
+  }
+
+  *:focus {
+      outline:none !important
+    }
+
+  .jumboChild {
+      padding: 36px;
+      width:70vw;
+      max-width: 1100px;
+      border-radius: 7px;
+      background-color: rgba(255, 255, 255, 0.8);
+      box-shadow: 0px 0px 20px black;
+  }
+  
+  .mobile-menu {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .mobile-menu-img {
+    width: 40px;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+  }
+
+    /* Fin navbar */
+
+    /* Debut Hero */
+  
+
+  /* Fin Hero */
+
+  /* --------------------------------- FIN HEADER ---------------------------------------------------- */
+  
+/* ---------------------------- DEBUT MAIN -------------------------------------- */
+
+.logoGH {
+width:33%;
+}
+
+.mobileMenu {
+    display: none;
+}
+
+.mobMenuImg {
+    width:40px;
+    position: relative;
+    top:30px;
+    right:20px;
+}
+
+.imgLogo {
+    width:70px;
+    position: relative;
+    left:22%;
+    top:12px;
+}
+
+.inNav {
+    margin-right: 30px;
+    margin-left: 30px;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navText {
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 400;
+    transition: font-weight 0.15s ease-in-out, margin-right 0.1s ease-in-out;
+}
+
+.navText:hover {
+    font-weight: 900;
+}
+
+.activePage {
+    color: #dea41e;
+}
+
+.verticalLine {
+    border-left: 3px solid black;
+    height: 70px;
+    width:10px;
+    position: relative;
+    top: 48px;
+    left:50px;
+}
+
+
+#descriptionCV {
+    margin: -120px 0 0 0;
+}
+
+.nomEtPhoto {
+    z-index: 999;
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.picBloc {
+    position: relative;
+    filter: grayscale(90%);
+}
+
+.picTom {
+    width:230px;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    height: min-content;
+    padding: 6px 46px;
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 62px;
+    top:86px;
+    background-color: #dea41e;
+    color: white;
+    border-radius: 5px;
+    margin:0px;
+}
+
+#nomF {
+    font-weight: 500 !important;
+}
+
+#nomP {
+    position: relative;
+}
+
+#descriptionPerso {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+
+.job {
+    position: relative;
+    bottom:90px;
+    left:48px;
+    order: 1;
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    font-size: 48px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    margin: 0;
+}
+.jobText {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    position: relative;
+    top:16px;
+    width: 740px;
+    text-align: justify;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.competences {
+    position: relative;
+    right:54px;
+    top:12px;
+    order: 2;
+}
+h3 {
+    font-size: 36px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    margin:0;
+}
+
+.textListExp {
+    font-family: 'Roboto', sans-serif;
+}
+
+.spacingListExp {
+    padding-top: 10px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 500;
+    list-style: none;
+    margin:0;
+    margin-bottom: 6px;
+    margin-top: 8px;
+    position: relative;
+    right:18px;
+}
+
+.tableCont {
+    order: 3;
+}
+
+
+ th, td {
+    padding :5px;
+}
+
+
+.tableExp {
+    width: auto;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 80px;
+    width: 100%;
+}
+
+.tableExp tr:nth-child(odd) {
+    background-color: #cdbea7;
+}
+
+.tableExp tr:nth-child(even) {
+    background-color: #f1e0c5;
+}
+
+#tableMobile {
+    display: none;
+}
+
+.link-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.picto-global {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom:50px;
+}
+
+.pictogramme-1{
+    text-align: center;
+}
+
+.pictogramme-2{
+    text-align: center;
+}
+
+.pictogramme-3{
+    text-align: center;
+}
+.pictogramme-4{
+    text-align: center;
+}
+
+.picto-text {
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom:16px;
+}
+.visited{
+    filter: grayscale(90%)
+}
+.picto-1 {
+    height: 100px;
+    width: 100px;
+}
+
+.picto-2 {
+    height: 100px;
+    width: 100px;
+}
+
+.picto-3 {
+    height: 100px;
+    width: 100px;
+}
+
+.picto-4 {
+    height: 100px;
+    width: 100px;
+}
+.footerTeam {
+    background: #3c3834;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+.footerStyle{
+    background-color: #3c3834;
+    padding: 50px;
+}
+
+ /* --------------------------------- FIN MAIN ---------------------------------------------------- */
+
+ 
+
+/* -----------------------------------------DEBUT VIDEO */
+
+.main-container-video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.videoTitle{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 62px;
+    background-color: #DEA41E;
+    width: 500px;
+    height: 80px;
+    color: white;
+    border-radius: 10px;
+    margin: 50px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    
+ }
+
+ .video{
+     margin-bottom: 50px ;
+ }
+  
+ /* -----------------------------------------FIN VIDEO */
+
+ 
+/* -----------------------------------------DEBUT HOBBIES */
+
+.hobby {
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 50px 50px 30px 50px; */
+    width: 80%;
+    margin: auto;
+}
+
+.nom {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    background-color: #dea41e;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    /* letter-spacing: 0.1em; */
+    margin-top: 20px;
+}
+
+.posBloc {  
+ display: flex;
+ width: 90%;
+ justify-content: center;
+ padding: 15px;
+ margin-top: 50px;
+}
+
+.contVid {
+ flex: 1;
+}
+
+.paraHobby {
+ font-family: Ubuntu;
+ font-size: 20px;
+ padding: 0 50px 50px 0;
+ text-align: justify;
+ flex: 1;    
+}
+
+.posBloc3 {
+ display: flex;
+ width: 90%;
+ justify-content: center;
+ padding: 15px;
+ margin-top: 50px;
+}
+
+.nom2 {
+ text-align: center;
+ width: 90%;
+ font-family: 'Ubuntu', sans-serif;
+ font-size: 2em;
+ margin-bottom: 15px;
+ letter-spacing: 0.05em;
+
+}
+
+.contVid2 {
+ flex: 1;
+
+}
+
+.paraHobby2 {
+ font-family: Ubuntu;
+ font-size: 20px;
+ padding: 0 0 0 50px;
+ text-align: justify;
+ flex: 1;    
+
+}
+
+.M {
+ font-size: 30px;
+}
+
+.C {
+ font-size: 30px;
+}
+
+/* -----------------------------------------FIN HOBBIES */
+
+ /* -----------------------------------------DEBUT CONTACT */
+
+.mainContact {
+    display: flex;
+    justify-content: center;
+    margin: 20px 8px;
+}
+.titre {
+    font-family: 'ubuntu', Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    padding: 0 0 20px 0;
+}
+
+#main-container-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    padding: 50px;
+    background-color: #f5efe5;
+}
+
+input[type=text],select,textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+input[type=submit] {
+  background-color:#3c3834;
+  color: white;
+  font-size: 1em;
+  padding: 12px 60px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+/* -----------------------------------------FIN CONTACT */
+
+
+
+/* ---------------------------- DEBUT FOOTER -------------------------------------- */
+
+.footer {
+    background: #3c3834;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rsIcons {
+    width: 80px;
+}
+#tableauTitle {
+    text-align: left;
+    background-color: #3c3834;
+    color:white;
+}
+
+.main {
+    position: relative;
+    bottom: 14vw;
+}
+
+.textPlusPic {
+    width: 14vw;
+}
+
+.onePicCont {
+    z-index: 2;
+    transition: all 0.3s ease-in-out;
+}
+
+.onePicCont img:nth-child(odd) {
+    width: 14vw;
+    border-top-right-radius: 3%;
+    border-top-left-radius: 3%;
+    transition: all 0.3s ease-in-out;
+    filter: grayscale(100);
+}
+
+.onePicCont img:nth-child(odd):hover {
+    border-radius: 0px;
+    filter: grayscale(0);
+}
+
+.picsCont {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.picTextCont {
+    z-index: -1;
+    position: relative;
+    bottom: 140px;
+    background-color: #dea41e;
+    color: #ffffff;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    height: 190px;
+}
+
+.picText {
+    font-family: 'Ubuntu';
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom:10px;
+    color: #705411;
+    text-align: center;
+}
+
+.miniCV {
+    height: 300px;
+    border-bottom: 20px;
+}
+
+.textDesc {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 16px;
+    height: 200px;
+    background-color: #383838;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    text-align-last: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mobileDescText {
+    display: none;
+}
+
+.titleMobile {
+    font-family: 'Ubuntu';
+}
+.mDeskTextCont {
+    display: none;
+}
+.blocTextMobile {
+    display: none;
+}
+.descriptions:hover {
+    position: relative;
+    padding-bottom:128px;
+}
+
+
+
+@media (max-width:1440px) {
+    .picTom {
+        width:196px;
+    }
+    h1 {
+        font-size: 56px;
+    }
+    .job {
+        position: relative;
+        bottom:70px;
+        left:46px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    .jobText {
+        font-size: 22px;
+        width: 680px;
+    }
+
+    .competences {
+        right:44px;
+        top:6px;
+    }
+    h3 {
+        margin-top: 4px;
+        font-size: 32px;
+    }
+
+    .tableExp {
+        margin-top: 50px;
+    }
+
+    .main {
+        position: relative;
+        bottom: 15vw;
+    }
+    
+    .textPlusPic {
+        width: 15vw;
+
+    }
+    .picText {
+        font-size: 26px;
+    }
+    
+    .onePicCont img:nth-child(odd) {
+        width: 15vw;
+    }
+    .picTextCont {
+        bottom: 154px;
+        height: 200px;
+    }
+    .descriptions:hover {
+        position: relative;
+        padding-bottom:140px;
+    }
+}
+
+
+@media (max-width:1240px) {
+    .jobText {
+        width:580px;
+    }
+    .job {
+        margin-right: 96px;
+    }
+    .tableExp {
+        margin-top: 40px;
+    }
+    .imgLogo {
+        left:18%;
+    }
+}
+
+@media (max-width:1100px) {
+    .textDesc {
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width:1024px) {
+
+    h1 {
+        font-size: 48px;
+    }
+
+    .picBloc {
+        bottom:-20px;
+    }
+
+    .picTom {
+        width:160px;
+    }
+
+    .job {
+        position: relative;
+        left:36px;
+        bottom:38px;
+    }
+    h2 {
+        font-size: 34px;
+    }
+    .jobText {
+        font-size: 18px;
+        width:440px;
+    }
+    .competences {
+        top:24px;
+        right: 23px;
+    }
+    h3 {
+        font-size: 26px;
+    }
+    .tableCont {
+        margin-top:20px;
+    }
+    .tableExp {
+        margin-top: 20px;
+    }
+    .imgLogo {
+        left:14%;
+    }
+    .picsCont {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .miniCV {
+        height: auto;
+    }
+    .footer {
+        position: absolute;
+        bottom: auto;
+    }
+    .footerTeam {
+        position: absolute;
+        bottom: auto;
+    }
+    .textPlusPic {
+        width:100vw;
+    }
+    .blocRight {
+        padding-left: 7vw;
+    }
+    .blocLeft {
+        padding-right: 7vw;
+    }
+    .onePicCont img:nth-child(odd) {
+        width: 22vw;
+        border-radius: 0;
+    }
+    .picTextCont {
+        display: none;
+    }
+
+    .miniCV {
+        display: flex;
+        justify-content: center;
+    }
+
+    .mobileDescText {
+        color: white;
+        display: block;
+        position: relative;
+        bottom: 5.3vw;
+        left:7px;
+        font-size: 4vw;
+        z-index: 3;
+    }
+    .blocTextMobile {
+        display: block;
+        background-color: #dea41e;
+        color: rgb(12, 12, 12);
+        font-family: 'Roboto';
+        width: 48vw;
+        height: 25.9vw;
+    }
+
+    .blocTextRight {
+        border-top-right-radius: 0.7vw;
+        border-bottom-right-radius: 0.7vw;
+    }
+    .blocTextLeft {
+        border-top-left-radius: 0.7vw;
+        border-bottom-left-radius: 0.7vw;
+    }
+
+    .metier {
+       font-weight: 700;
+       font-size: 2.3vw;
+       padding-bottom: 0.5vw;
+       margin-bottom: 0.7vw; 
+       width: 30vw;
+       font-family: 'Ubuntu';
+    }
+
+    .textParaMobile {
+        height: 12vw;
+        font-size: 1.8vw;
+        padding: 12px;
+    }
+    .mobileDesc {
+        display: flex;
+        flex-direction: row;
+        justify-content: center
+    }
+
+    .descriptions:hover {
+        position: relative;
+        padding-bottom:0;
+    }
+
+    .picRadiusRight {
+        border-top-left-radius: 0.7vw !important;
+        border-bottom-left-radius: 0.7vw !important;
+    }
+    .picRadiusLeft {
+        border-top-right-radius: 0.7vw !important;
+        border-bottom-right-radius: 0.7vw !important;
+    }
+
+    .mdReverse {
+        flex-direction: row-reverse;
+    }
+
+    .btnFillerRight {
+        height: 9vw;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding-left: 28vw;
+    }
+
+    .btnFillerLeft {
+        height: 9vw;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding-right: 28vw;
+    }
+
+    .savoir_plus_right {
+        width:16vw;
+        height: 6vw;
+    }
+    .savoir_plus_left {
+        width:16vw;
+        height: 6vw;
+        margin-left: 20px;
+    }
+    .btn_style {
+        font-family: 'Ubuntu';
+        font-weight: 700;
+        border: none;
+        background-color: white;
+        border-radius: 0.4vw;
+        font-size: 1.8vw;
+    }
+
+    /* animations et activation des animations  */
+
+    .onePicCont img:nth-child(odd) {
+        border-radius: 0px;
+        filter: none;
+        animation: 1.4s ease-in-out enlever_filtre;
+    }
+
+    .animSensNormal {
+        animation: 1.6s ease-in-out onMobileStart2;
+    }
+    .animSensNormal_texte {
+        animation: 1.6s ease-in-out onMobileStart;
+    }
+
+    .animSensInverse {
+        animation: 1.6s ease-in-out onMobileStartRev2;
+    }
+    .animSensInverse_texte {
+        animation: 1.6s ease-in-out onMobileStartRev;
+    }
+
+    .border_anim {
+        border-bottom: 2px solid #b18319;
+        animation: 2s ease-in-out border_animation;
+        opacity: 100;
+    }
+
+    .anim_btn {
+        opacity: 100;
+        display: block;
+        animation: 2.2s ease-in-out anim_button;
+    }
+
+    @keyframes enlever_filtre {
+        0% {
+            filter: grayscale(100);
+        }
+        100% {
+            filter: grayscale(0);
+        }
+    }
+
+    @keyframes anim_button {
+        0% {
+            opacity: 0;
+        }
+        80% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 100;
+        }
+    }
+
+    @keyframes border_animation {
+        0% {
+            opacity: 0;
+        }
+        65% {
+            opacity: 0;
+        }
+        80% {
+            opacity: 100;
+        }
+    }
+
+    @keyframes onMobileStart {
+        0% {
+            width: 22vw;
+            margin-right: 50vw;
+            margin-left: 0;
+            position: absolute;
+            background-color: #ffffff;
+            color: rgba(8, 10, 18, 0);
+        }
+        20% {
+            background-color: #ffffff;
+        }
+        65% {
+            color: rgba(8, 10, 18, 0);
+        }
+
+        100% {
+            width: 48vw;
+            margin-right: 0; 
+            margin-left: 11vw;
+            position: absolute;
+        }
+    }
+
+    @keyframes onMobileStart2 {
+        0% {
+            margin-right: 0;
+        }
+        100% {
+            margin-right: 48vw;
+        }
+    }
+
+    /* animation sens inversé */
+
+    @keyframes onMobileStartRev {
+        0% {
+            width: 22vw;
+            margin-right: 50vw;
+            margin-left: 0;
+            position: absolute;
+            background-color: #ffffff;
+            color: rgba(8, 10, 18, 0);
+
+        }
+        20% {
+            background-color: #ffffff;
+        }
+        65% {
+            color: rgba(8, 10, 18, 0);
+        }
+        
+        100% {
+            width: 48vw;
+            margin-right: 0;
+            margin-left: -11vw;
+            position: absolute;
+
+        }
+    }
+
+    @keyframes onMobileStartRev2 {
+        0% {
+            margin-left: 0;
+
+        }
+        100% {
+            margin-left: 48vw;
+            
+        }
+    }
+
+
+}
+
+
+@media (max-width:800px) {
+    .hero {
+        background-size: cover;
+       background-position-y: center;
+        
+         }
+    
+      .item {
+        display: none;
+      }
+    
+      .mobile-menu {
+        display: block;
+      }
+    
+      .mobile-menu-img {
+        top: 30px;
+      }
+
+    .picBloc {
+        width: 130px;
+        margin: auto;
+        position: relative;
+        bottom:80px;
+    }
+
+    .picTom {
+        width: 130px;
+        clip-path: inset(8% 0 8% 0);
+        clip-path: none;
+    }
+
+    #descriptionCV {
+        margin: -80px 0 0 0;
+    }
+
+    .nomEtPhoto {
+        display: block;
+    }
+
+    h1 {
+        margin: auto;
+        top:150px;
+        font-size: 38px;
+        z-index: 2;
+        padding: 6px 30px;
+        width: 50vw;
+    }
+
+    .mobileMenu {
+        display:block;
+    }
+
+    .imgLogo {
+        left:20px;
+    }
+    #descriptionPerso {
+        display: block;
+        margin-top: 20px;
+    }
+    .competences {
+        text-align:center ;
+        top:0px;
+        left:0px;
+        right:0px;
+    }
+    .job {
+        margin:0px;
+        left:0px;
+        bottom:0px;
+        text-align: center;
+    }
+    .jobText {
+        width: 70vw;
+        margin:auto;
+        margin-bottom:40px;
+        text-align: justify;
+        text-align-last: center;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h4 {
+        text-align: center;
+        right: 0;
+        margin-bottom: 6px;
+    }
+
+    .lastOfList {
+        margin-bottom: 14px;
+    }
+
+    .tableExp {
+        margin: auto;
+        margin-top: 26px;
+        width: 80%;
+    }
+
+    ul {
+        padding-inline-start: 0px;
+    }
+
+    .listCont {
+        width: auto;
+    }
+
+    #tableDesktop {
+        display: none;
+    }
+
+    #tableMobile {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .tableCont {
+        margin-top: 0px;
+    }
+
+    .sousTitreCont {
+        display: flex;
+        justify-content: center;
+    }
+
+    .picto-global {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rsIcons {
+        width: 50px;
+    }
+
+    .icons {
+        justify-content: space;
+    }
+
+        /* ------------------------------------DEBUT HOBBIES */
+    
+        .nom {
+            font-size: 20px;
+        }
+        
+        
+        .contVid {
+            padding-right: 0px;
+            width: 100%;
+            margin-bottom: 30px;
+        }
+        .hobby {
+            flex-direction: column;
+        }
+        
+        .posBloc {
+                display: flex;
+                flex-direction: column;   
+                align-items: center;
+                justify-content: stretch;
+        }
+        
+        .paraHobby{
+            padding: 0px 0px 40px 0px;
+            
+        }
+    
+        .nom2 {
+            font-size: 1.5em;
+        }
+        
+        .contVid2 {
+            padding-left: 0px;
+            width: 100%;
+            margin-bottom: 30px;
+        }
+        
+        .posBloc3 {
+            display: flex;
+            flex-direction: column;   
+            align-items: center;
+        }
+        
+        .paraHobby2{
+            padding: 0px 0px 0px 0px;
+        }
+        
+        
+    /* FIN HOBBIES */
+    
+    /* Contact */
+    .titreForm {
+        font-size: 1.5em;
+    }
+    
+    /* FIN Contact */
+    
+
+}
+
+@media (min-width:768px) {
+    .textJumboStyle, .descJumboStyle, .aboveBtnDesc {
+        text-align: left;
+    }
+    .btnHeroCont {
+        justify-content: left;
+    }
+    .textJumboStyle {
+        font-size: 60px !important;
+    }
+    .offresTitle {
+        font-size: 50px !important;
+    }
+}
+
+@media (min-width:1024px) {
+    .textJumboStyle {
+        font-size: 70px !important;
+    }
+}
+
+@media (max-width:768px) {
+    .styleJumbo {
+        display: flex;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .jumboChild {
+        margin:auto;
+        padding:30px;
+        width:80vw;
+    }
+    .btnHeroCont {
+        justify-content: center;
+    }
+
+}
+
+@media (min-width:600px) {
+    .descJumboStyle {
+        font-size: 28px;
+    }
+    .aboveBtnDesc {
+        font-size: 20px;
+    }
+    .btn_hero_style {
+        font-size: 28px ;
+    }
+}
+
+@media (max-width:600px) {
+
+    .topBar {
+        padding-bottom: 26px;
+    }
+    h1 {
+        margin: auto;
+        top:130px;
+        font-size: 38px;
+        width: 70vw;
+    }
+    .imgLogo {
+        width:40px;
+        top:14px;
+    }
+    .mobMenuImg {
+        top:20px;
+    }
+    .picBloc {
+        width: 114px;
+        bottom:76px;
+    }
+
+    .picTom {
+        width: 114px;
+    }
+    .btnFillerRight {
+        height: 5vw;
+    }
+    .btnFillerLeft {
+        height: 5vw;
+    }
+
+}
+
+@media (max-width:420px) {
+    h1 {
+        font-size: 28px;
+        top:120px;
+    }
+
+    .picTom {
+        width:96px;
+    }
+
+    .picBloc {
+        width: 96px;
+        bottom:50px;
+    }
+
+}
+
+
+.zoneOffres {
+min-height: 100vh;
+}
+.offresCont {
+    flex-direction: column !important;
+}
+
+.cardCustom {
+    box-shadow: 0px 0px 20px rgba(138, 138, 138, 0.3);
+    margin-left: 0px;
+    width: 76vw;
+}
+
+.card-last {
+    margin-right: 0px;
+    margin-bottom: 20px !important;
+}
+
+.card-body-style {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.imgCardSize {
+    width: 100%;
+    height: 13rem;
+    object-fit: cover;
+}
+
+.traitCard {
+    width: 97%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
+
+.titreCard {
+    font-family: 'Ubuntu';
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.offresTitle {
+    font-family: 'Ubuntu';
+    font-weight: 900;
+    font-size: 6vw;
+    text-align: center;
+    color: white;
+    background-color:#dea41e;
+    margin:auto;
+    position: relative;
+    top: 20px;
+    width: 60vw;
+    max-width: 500px;
+    border-radius:5px;
+}
+
+
+@media (min-width:450px) {
+    .cardCustom {
+        width: 60vw;
+        max-width: 440px;
+    }
+}
+
+@media (min-width:576px) {
+    .titreCard {
+        font-size: 28px;
+    }
+}
+
+@media (min-width:768px) {
+    .titreCard {
+        font-size: 32px;
+    }
+}
+
+@media (min-width:992px) {
+    .offresCont {
+        flex-direction: row !important;
+        height: 840px;
+    }
+    .cardCustom {
+        margin-left: 30px;
+    }  
+    .card-last {
+        margin-right: 30px;
+        margin-bottom: 0px !important;
+    }
+    .offresTitle {
+        width: 380px;
+        display: flex;
+        margin:0;
+        justify-content: space-around;
+        margin-left:3%;
+    }
+    .card-body-style {
+        text-align: left;
+    }
+    .titreCard {
+        font-size: 28px;
+    }
+}
+
+@media (min-width:1200px) {
+    .cardCustom {
+        width: 28vw !important;
+        max-width:500px;
+    }
+
+    .imgCardSize {
+        height: 190px;
+        width: 27.9vw;
+        max-width:500px;
+    }
+    .card-body-style {
+        height: 320px;
+    }
+}
+
+@media (min-width:1800px) {
+    .offresTitle {
+        margin-left: 62px;
+    }
+}
+
+@media (min-width:1900px) {
+    .offresTitle {
+        margin-left: 80px;
+    }
+
+}
